@@ -15,13 +15,13 @@ public class Task_1 {
         System.out.println(n + "-ое" + " треугольное число " + triangle_number);
         int factorial = 1;
         if (n == 1){
-            System.out.println(factorial + "- факториал числа " + n);
+            System.out.println(factorial + "- является факториалом числа  " + n);
         } 
         else{
             for (int i = 1; i <= n; i++) {
             factorial = factorial * i;
         }
-        System.out.println(factorial + "- факториал числа " + n);
+        System.out.println(factorial + "- является факториалом числа " + n);
         }
         
     }
