@@ -23,10 +23,10 @@ public class Task_7 {
         planets.add("Марс");
         planets.add("Земля");
         planets.add("Марс");
-
+        
         for (String planet : planets)
             System.out.println(planet + " = " + Collections.frequency(planets, planet));
-                    
+
     }
     
 }
